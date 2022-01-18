@@ -35,7 +35,7 @@
             return $this -> cognome;
         }
 
-        public function setnome($cognome){
+        public function setcognome($cognome){
             return $this -> $cognome;
         }
 
@@ -51,7 +51,7 @@
             return $this -> nome . $this -> cognome . ":" . $this -> data_di_nascita;
         }   
         
-        public function__toString(){
+        public function __toString(){
             return $this -> printFullPerson();
         }
 
